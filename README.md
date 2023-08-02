@@ -1,48 +1,5 @@
 # Two Pointers and Searching Algorithms
 
-## Recursion
-
-before we get into the main points lets talk about `Recursion`
-
-In the simple way `Recursion` is when a function calls itself until it doesn't.
-
-let's see some examples:
-
-```js
-// display numbers from 1 to 10 using recursion
-
-const fromNumtoTen = (number) => {
-
-    if (number > 10) {
-        return;
-    }
-
-    console.log(number);
-
-    fromNumtoTen(number + 1);
-}
-
-fromNumtoTen(1);
-
-```
-
-```js
-// get the factorial of a number 
-
-const fact = (number) => {
-    if (number === 1) {
-        return 1;
-    }
-
-    return number * fact(number - 1);
-}
-
-console.log(fact(5)); // 120
-
-```
-
-to learn more about recursion you can see [this video](https://www.youtube.com/watch?v=k7-N8R0-KY4&t=746s)
-or [this article](https://www.geeksforgeeks.org/recursion/)
 
 ## The Two Pointer Technique
 
